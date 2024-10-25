@@ -641,9 +641,8 @@ img {
   margin-left: auto;
 }
 
-.modal-input-form {
-  margin-bottom: 8px;
-  position: relative;
+.modal-input-textarea {
+  margin-bottom: 16px;
 }
 
 .modal-label {
@@ -739,12 +738,7 @@ img {
   pointer-events: none;
 }
 
-.label-checkbox {
-  align-items: center;
-  cursor: pointer;
-}
-
-.checkbox-true {
+.label-checkbox .checkbox-true {
   display: inline-flex;
   align-items: center;
   justify-content: center;
