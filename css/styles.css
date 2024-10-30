@@ -512,7 +512,6 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
   min-width: 165px;
@@ -615,7 +614,6 @@ img {
 }
 
 .modal-text {
-  margin-top: 72px;
   margin-left: auto;
   margin-right: auto;
   font-family: inherit;
@@ -629,20 +627,18 @@ img {
 }
 
 .contact-form {
-  display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
   gap: 8px;
   border-radius: 4px;
-  width: 360px;
   min-height: 336px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .modal-input-textarea {
-  margin-bottom: 16px;
+  margin-top: 8px;
 }
 
 .modal-label {
@@ -682,7 +678,6 @@ img {
 
 .modal-textarea {
   min-width: 360px;
-  margin-top: 8px;
   font-family: inherit;
   font-size: 12px;
   line-height: 1.17;
@@ -728,7 +723,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  padding-bottom: 24px;
   margin-bottom: 24px;
 }
 
@@ -787,7 +781,7 @@ img {
   color: #ffffff;
   display: block;
   border: none;
-  margin: 24px auto;
+  margin: 24px auto 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
